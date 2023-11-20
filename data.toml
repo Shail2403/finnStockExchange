@@ -1,0 +1,14 @@
+[mongodb]
+uri = "mongodb://localhost:27017/"
+database_name = "FinnBase"
+symbols_collection = "StockSymbols"
+uids_collection = "UIDs"
+earnings_collection = "EarningsData"
+
+[finnhub]
+api_url = "https://finnhub.io/api/v1/stock/symbol?exchange=US&token=ckvspm1r01qhjei2p560ckvspm1r01qhjei2p56g"
+api_key = "ckvspm1r01qhjei2p560ckvspm1r01qhjei2p56g"
+
+[alpha_vantage]
+url = "https://www.alphavantage.co/query"
+api_key = "I04T80M9FZE3JJC5"
